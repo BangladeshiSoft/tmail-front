@@ -12,7 +12,7 @@ export default function MailPage() {
   //   const defaultCollapsed = collapsed ? JSON.parse(collapsed.value) : undefined;
 
   return (
-    <>
+    <div>
       <div className="md:hidden">
         <Image
           src="/examples/mail-dark.png"
@@ -38,6 +38,6 @@ export default function MailPage() {
           navCollapsedSize={4}
         />
       </div>
-    </>
+    </div>
   );
 }
