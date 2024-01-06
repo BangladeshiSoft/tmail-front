@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div
       className={cn(
-        "min-h-screen bg-background font-sans antialiased ",
+        "min-h-screen max-w-[100vw] overflow-hidden bg-background font-sans antialiased ",
         fontSans.variable
       )}
     >
